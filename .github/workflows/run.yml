@@ -25,5 +25,5 @@ jobs:
           pip install -r ./requirements.txt
 
       - name: Start Backend Server
-        run: uvicorn main:app --reload &
+        run: uvicorn main.app:app --reload &
 
